@@ -1,16 +1,22 @@
 Dataset Link: https://www.kaggle.com/datasets/mikhail1681/walmart-sales
 
-The CSV contains weekly sales data for 45 stores over approximately 2 years (from February 2010 to October 2012). Each store has around 143 entries (52 weeks/year _ 2 years + some additional weeks), totaling roughly 6,435 rows (45 stores _ 143 weeks).
+The CSV contains weekly sales data for 45 stores over approximately 2 years (from February 2010 to October 2012). 
+Each store has around 143 entries (52 weeks/year _ 2 years + some additional weeks), totaling roughly 6,435 rows (45 stores _ 143 weeks).
 Variables:
-Weekly_Sales: Target variable (continuous, in dollars).
-Holiday_Flag: Binary (0 or 1, indicating non-holiday or holiday weeks).
-Temperature: Continuous (in Fahrenheit).
-Fuel_Price: Continuous (in dollars per gallon).
-CPI: Continuous (Consumer Price Index, a measure of inflation).
-Unemployment: Continuous (unemployment rate in percentage).
+
+**Weekly_Sales:** Target variable (continuous, in dollars).
+**Holiday_Flag:** Binary (0 or 1, indicating non-holiday or holiday weeks).
+**Temperature:** Continuous (in Fahrenheit).
+**Fuel_Price:** Continuous (in dollars per gallon).
+**CPI:** Continuous (Consumer Price Index, a measure of inflation).
+**Unemployment:** Continuous (unemployment rate in percentage).
+
+CSV Dataset file → Create Database → Queries  → Analysis (Visuals/Graphs)
+
 Interpretation of Results
-Holiday_Flag has the largest impact on weekly sales. Holiday weeks (e.g., Thanksgiving, Christmas) see a substantial sales spike, likely due to increased consumer spending during these periods.
-CPI is the second most influential factor. Higher inflation (higher CPI) correlates with lower sales, possibly because consumers have less purchasing power as prices rise.
+
+**Holiday_Flag** has the largest impact on weekly sales. Holiday weeks (e.g., Thanksgiving, Christmas) see a substantial sales spike, likely due to increased consumer spending during these periods.
+**CPI** is the second most influential factor. Higher inflation (higher CPI) correlates with lower sales, possibly because consumers have less purchasing power as prices rise.
 Unemployment also significantly impacts sales. Higher unemployment reduces consumer spending, leading to lower sales.
 Temperature has a smaller, but notable, effect. Warmer weather slightly reduces sales, possibly due to seasonal shopping patterns (e.g., more sales in colder months like December).
 Fuel_Price has the least impact, with a negligible and non-significant effect on sales.
@@ -19,9 +25,16 @@ Fuel_Price has the least impact, with a negligible and non-significant effect on
 
 Observation:
 
-![Store 1 Weekly Sales](images/"store 1 weekly sales with holiday.png")
+<p align="center">
+  <img src="https://github.com/WaqasJal/sales-forecasting-analysis/blob/main/images/store%201%20weekly%20sales%20with%20holiday.png" />
+</p>
 
-From your dot graph, you've identified a holiday in September where weekly sales are consistently low across all stores.
+<p align="center">
+  <img src="https://github.com/WaqasJal/sales-forecasting-analysis/blob/main/images/store%202%20weekly%20sales%20with%20holiday.png" />
+</p> 
+
+https://github.com/WaqasJal/sales-forecasting-analysis/blob/main/images/store%202%20weekly%20sales%20with%20holiday.png
+From the dot graph, a holiday in September where weekly sales are consistently low across all stores.
 📉 What this could indicate:
 Customer Behavior:
 
