@@ -19,7 +19,9 @@ Fuel_Price has the least impact, with a negligible and non-significant effect on
 
 Observation:
 
-![Store 1 Weekly Sales](images/"store 1 weekly sales with holiday.png")
+<p align="center">
+  <img src="https://github.com/WaqasJal/sales-forecasting-analysis/blob/main/images/store%201%20weekly%20sales%20with%20holiday.png" />
+</p>
 
 From your dot graph, you've identified a holiday in September where weekly sales are consistently low across all stores.
 📉 What this could indicate:
