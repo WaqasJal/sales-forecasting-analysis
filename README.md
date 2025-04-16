@@ -18,6 +18,9 @@ Fuel_Price has the least impact, with a negligible and non-significant effect on
 🔍 Analysis of Low Sales During September Holiday
 
 Observation:
+
+![Store 1 Weekly Sales](images/"store 1 weekly sales with holiday.png")
+
 From your dot graph, you've identified a holiday in September where weekly sales are consistently low across all stores.
 📉 What this could indicate:
 Customer Behavior:
